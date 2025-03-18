@@ -1,0 +1,30 @@
+
+<html>
+	<head>
+
+<script src="https://cdn.prod.us.five9.net/static/stable/chat/wrapper/index.js"></script>
+
+	</head>
+	<body>
+
+	<main class="container">
+			</div>
+			<div class="px-4 py-5 my-5 text-center">
+				
+
+		</main>
+
+<script>
+  F9.Chat.Wrapper.init({
+    cdn: 'prod',
+    useBusinessHours: false,
+    languages: {"enabled":false,"backgroundColor":"#008bff"},
+    l10n: {"en":{"messenger":{"customText":{"welcomeHeader":"Welcome to CAP Chatbot!","welcomeDescription":"Before we get started, please enter your email address below."}},"systemMessages":{"transferredToParticipant":"The chat has been transferred to {name}.","transferredToGroup":"That chat has been transferred to group {group}."},"captureFields":[{"k":"email","l":"Email Address","p":"Enter your email..."}]}},
+    prepopulatedFields: [{"k":"campaign","v":"zChatbot_CAP_DEV"},{"k":"name","v":"five9"},{"k":"Question","v":"five9"}],
+    messenger: {"integrationId":"63e150b217c7a1011acc1941","soundNotificationEnabled":true,"transcriptPrintingEnabled":true,"menuItems":{"imageUpload":true,"fileUpload":true,"shareLocation":true},"embedded":false,"setViewportScale":false,"browserStorage":"sessionStorage","hideWidgetAfterBusinessHours":false,"openLinkInSameTab":false,"scheduleCallback":{"isCallbackEnabled":false,"requestCallbackList":"","customConfirmationMessage":"We will call you as soon as we can at [PHONE]","web2CampaignAPIHost":""},"fixedHeader":false,"displayStyle":"button","customColors":{"brandColor":"008bff","conversationColor":"0d00ff","actionColor":"0040ff"},"carouselType":"default"},
+    clearMessagesTimeout: 3
+  });
+  </script>
+
+	</body>
+</html>
